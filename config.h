@@ -22,7 +22,7 @@
 
 //#define USE_MATRIX_I2C
 
-/* Select hand configuration */
+/* Select hand configuration (ahora el master es la izquierda)*/
 
 #define MASTER_LEFT
 // #define MASTER_RIGHT

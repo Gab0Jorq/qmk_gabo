@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
-
+//logo
 #ifdef OLED_DRIVER_ENABLE
 
 /* 32 * 32 logo */
