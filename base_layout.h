@@ -1,6 +1,6 @@
 [_COLEMAK] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_TAB ,    KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,                        KC_J,    KC_L,    KC_U,    KC_Y,   KC_QUOT,  TO(_QWERTY),
+      KC_TAB ,    KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,                        KC_J,    KC_L,    KC_U,    KC_Y,   KC_QUOT,  TO(_NAV),
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_DEL,     HOME_A,  HOME_R,  HOME_S,  HOME_T,  KC_D,                        KC_H,    HOME_N,  HOME_E,  HOME_I, HOME_O,   KC_SCLN,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
@@ -29,7 +29,7 @@
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       XXXXXXX, KC_EXLM, KC_UNDS, KC_AT,   KC_QUES, KC_TILD,                     KC_ASTR, KC_LBRC, KC_CIRC, KC_RBRC, KC_TILD, XXXXXXX, 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_QUES, KC_LPRN, KC_DLR,  KC_RPRN, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, KC_LOPT, KC_LSFT, KC_LCTL, XXXXXXX,                     KC_QUES, KC_LPRN, KC_DLR,  KC_RPRN, KC_QUOT, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       RESET, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                       KC_PIPE, KC_LCBR, KC_HASH, KC_RCBR, KC_UNDS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
@@ -53,7 +53,7 @@
     //Work in process                   
   [_NAV] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_TAB,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_U, XXXXXXX, KC_UP,   XXXXXXX, XXXXXXX, XXXXXXX, 
+      KC_TAB,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_U, XXXXXXX, KC_UP,   XXXXXXX, XXXXXXX, TO(_COLEMAK), 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_LGUI, XXXXXXX,                     KC_WH_D, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
