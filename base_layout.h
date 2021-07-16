@@ -14,11 +14,11 @@
     //Work in process
   [_NUM] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, KC_SLEP,                      KC_PSLS, KC_7,    KC_8,    KC_9,    KC_PAST, KC_BSPC, 
+      KC_SLEP, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, KC_PSLS,                      KC_LBRC, KC_7,    KC_8,    KC_9,    KC_GRV,  KC_BSPC, 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, KC_SPC, KC_BSPC,                      KC_PDOT,  KC_4,    KC_5,    KC_6,    KC_PMNS, XXXXXXX,
+      KC_LCTL, KC_VOLD, KC_MUTE, KC_VOLU, KC_SPC, KC_PAST,                       KC_PDOT, KC_4,    KC_5,    KC_6,    KC_PMNS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, DOFUS, XXXXXXX, XXXXXXX, XXXXXXX,LGUI(KC_E),                      KC_PCMM, KC_1,    KC_2,    KC_3,    KC_PPLS, XXXXXXX,
+      KC_LSFT, DOFUS, XXXXXXX, XXXXXXX, KC_CALC,LGUI(KC_E),                      KC_COMM, KC_1,    KC_2,    KC_3,    KC_PPLS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           XXXXXXX, XXXXXXX, XXXXXXX,     KC_NUBS,   KC_EQL, KC_0
                                       //`--------------------------'  `--------------------------'
@@ -29,9 +29,9 @@
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       XXXXXXX, KC_EXLM, KC_UNDS, KC_AT,   KC_QUES, KC_TILD,                     KC_ASTR, KC_LBRC, KC_CIRC, KC_RBRC, KC_TILD, XXXXXXX, 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, KC_LOPT, KC_LSFT, KC_LCTL, XXXXXXX,                     KC_QUES, KC_LPRN, KC_DLR,  KC_RPRN, KC_QUOT, XXXXXXX,
+      XXXXXXX, S(KC_4), S(KC_5), S(KC_6), S(KC_7), XXXXXXX,                     KC_QUES, KC_LPRN, KC_DLR,  KC_RPRN, KC_QUOT, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      RESET, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                       KC_PIPE, KC_LCBR, KC_HASH, KC_RCBR, KC_UNDS, XXXXXXX,
+      RESET,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_PIPE, KC_LCBR, KC_HASH, KC_RCBR, KC_UNDS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                          XXXXXXX, XXXXXXX, XXXXXXX,     KC_ENT, KC_SPC, KC_BSPC
                                       //`--------------------------'  `--------------------------'
