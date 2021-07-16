@@ -60,6 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
+//oled configuration
 #ifdef OLED_DRIVER_ENABLE
 
 static void render_logo(void) {
@@ -214,3 +215,27 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     return true;
 }
 
+//underglow configuration
+layer_state_t layer_state_set_user(layer_state_t state) {
+    switch (get_highest_layer(state)) {
+    case _NUM: //calipso
+        rgblight_setrgb (0x1A,  0xD5, 0xD6);
+        break;
+    case _SYM: //verde fuerte
+        rgblight_setrgb (0x0B,  0xD6, 0x48);
+        break;
+    case _EDIT: //azul
+        rgblight_setrgb (0x0F,  0x22, 0x8E);
+        break;
+    case _NAV: //rosa
+        rgblight_setrgb (0xEC,  0x0E, 0xC7);
+        break;
+    case _FN: //purpura
+        rgblight_setrgb (0x50,  0x12, 0x91);
+        break;   
+    default: //  for any other layers, or the default layer Blanco
+        rgblight_setrgb (0xAC,  0xE9, 0xCB);
+        break;
+    }
+  return state;
+}
