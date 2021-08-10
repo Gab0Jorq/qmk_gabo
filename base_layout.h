@@ -50,16 +50,16 @@
                                       //`--------------------------'  `--------------------------'
   ),
 
-    //Work in process                   
+    //Work in process LADO DERECHO PARA BOMBERMAN                  
   [_NAV] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_TAB,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_U, XXXXXXX, KC_UP,   XXXXXXX, XXXXXXX, TO(_COLEMAK), 
+      KC_TAB,  XXXXXXX, XXXXXXX, KC_Z,    KC_C,    KC_X,                     KC_WH_U, XXXXXXX, KC_UP,   XXXXXXX, XXXXXXX, TO(_COLEMAK), 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_LGUI, XXXXXXX,                     KC_WH_D, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_L, KC_WH_R, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                          XXXXXXX, XXXXXXX, XXXXXXX,     XXXXXXX, XXXXXXX, XXXXXXX
+                                          XXXXXXX, XXXXXXX, XXXXXXX,     XXXXXXX, KC_SPC, XXXXXXX
                                       //`--------------------------'  `--------------------------'
   ),
 

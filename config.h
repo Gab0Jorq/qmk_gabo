@@ -50,6 +50,8 @@
 
 #define SPLIT_USB_DETECT
 
+#define USB_SUSPEND_WAKEUP_DELAY_200
+
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 
 	#define NO_ACTION_ONESHOT
