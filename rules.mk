@@ -34,6 +34,5 @@ TAP_DANCE_ENABLE = no # enable double tap
 
 
 #prueba dibujo
-WPM_ENABLE = yes
 OLED_DRIVER_ENABLE = yes
 LTO_ENABLE = yes    #HACER MAS LIVIANO EL ARCHIVOO

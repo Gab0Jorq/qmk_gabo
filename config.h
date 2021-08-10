@@ -43,14 +43,14 @@
 
 
 //animacion
-#ifdef OLED_DRIVER_ENABLE
+/*#ifdef OLED_DRIVER_ENABLE
   //#define OLED_DISPLAY_128X64
   #define OLED_TIMEOUT 300000
 #endif
+*/
+//#define SPLIT_USB_DETECT
 
-#define SPLIT_USB_DETECT
-
-#define USB_SUSPEND_WAKEUP_DELAY_200
+//#define USB_SUSPEND_WAKEUP_DELAY_200
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
 
