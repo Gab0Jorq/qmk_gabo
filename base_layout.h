@@ -2,9 +2,9 @@
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
       KC_TAB ,    KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,                        KC_J,    KC_L,    KC_U,    KC_Y,   KC_QUOT,  TO(_NAV),
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_DEL,     HOME_A,  HOME_R,  HOME_S,  HOME_T,  KC_D,                        KC_H,    HOME_N,  HOME_E,  HOME_I, HOME_O,   KC_SCLN,
+      KC_DEL,     KC_A,  HOME_R,  HOME_S,  HOME_T,  KC_D,                        KC_H,    HOME_N,  HOME_E,  HOME_I, HOME_O,   KC_SCLN,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_CAPS,    KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,                        KC_K,    KC_M,    KC_COMM, KC_DOT, KC_SLSH,  KC_ESC,
+      KC_CAPS,    HOME_Z,    KC_X,    KC_C,    KC_V,    KC_B,                        KC_K,    KC_M,    KC_COMM, KC_DOT, KC_SLSH,  KC_ESC,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
            LT(_SYM, KC_LBRC),   LT(_NUM, KC_LGUI),  ALGR_T(KC_BSPC),   LT(_FN, KC_ENT),   LT(_NAV, KC_SPC), LT(_EDIT, KC_ESC)
                                       //`--------------------------'  `--------------------------'

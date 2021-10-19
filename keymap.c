@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //home rows configuration
 
 // Left-hand home row mods
-#define HOME_A LGUI_T(KC_A)
+#define HOME_Z LGUI_T(KC_Z)
 #define HOME_R LALT_T(KC_R)
 #define HOME_S LSFT_T(KC_S)
 #define HOME_T LCTL_T(KC_T)
