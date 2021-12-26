@@ -1,10 +1,10 @@
 [_COLEMAK] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_TAB ,    KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,                        KC_J,    KC_L,    KC_U,    KC_Y,   KC_QUOT,  TO(_NAV),
+      KC_TAB ,    KC_Q,    KC_W,    KC_F,    KC_P,    KC_G,                      KC_J,    KC_L,    KC_U,    KC_Y,   KC_QUOT,  TO(_NAV),
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_DEL,     KC_A,  HOME_R,  HOME_S,  HOME_T,  KC_D,                        KC_H,    HOME_N,  HOME_E,  HOME_I, HOME_O,   KC_SCLN,
+      KC_DEL,     KC_A,  HOME_R,  HOME_S,  HOME_T,    KC_D,                      KC_H,    HOME_N,  HOME_E,  HOME_I, HOME_O,   KC_SCLN,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_CAPS,    HOME_Z,    KC_X,    KC_C,    KC_V,    KC_B,                        KC_K,    KC_M,    KC_COMM, KC_DOT, KC_SLSH,  KC_ESC,
+      KC_CAPS,    HOME_Z,    KC_X,    KC_C,    KC_V,  KC_B,                      KC_K,    KC_M,    KC_COMM, KC_DOT, KC_SLSH,  KC_ESC,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
            LT(_SYM, KC_LBRC),   LT(_NUM, KC_LGUI),  ALGR_T(KC_BSPC),   LT(_FN, KC_ENT),   LT(_NAV, KC_SPC), LT(_EDIT, KC_ESC)
                                       //`--------------------------'  `--------------------------'
@@ -14,11 +14,11 @@
     //Work in process
   [_NUM] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_SLEP, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, KC_PSLS,                      KC_LBRC, KC_7,    KC_8,    KC_9,    KC_GRV,  KC_BSPC, 
+      KC_SLEP, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, KC_PSCR,                      XXXXXXX, KC_7,    KC_8,    KC_9,    KC_GRV,  KC_BSPC, 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, KC_VOLD, KC_MUTE, KC_VOLU, KC_SPC, KC_PAST,                       KC_PDOT, KC_4,    KC_5,    KC_6,    KC_PMNS, XXXXXXX,
+      XXXXXXX, KC_VOLD, KC_MUTE, KC_VOLU, XXXXXXX, XXXXXXX,                      KC_PDOT, KC_4,    KC_5,    KC_6,    KC_PMNS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT, DOFUS, XXXXXXX, XXXXXXX, KC_CALC,LGUI(KC_E),                      KC_COMM, KC_1,    KC_2,    KC_3,    KC_PPLS, XXXXXXX,
+      XXXXXXX, DOFUS, XXXXXXX, XXXXXXX, KC_CALC,LGUI(KC_E),                      KC_COMM, KC_1,    KC_2,    KC_3,    KC_PPLS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           XXXXXXX, XXXXXXX, XXXXXXX,     KC_NUBS,   KC_EQL, KC_0
                                       //`--------------------------'  `--------------------------'
@@ -33,7 +33,7 @@
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       RESET,   XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_PIPE, KC_LCBR, KC_HASH, KC_RCBR, KC_UNDS, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                         XXXXXXX, XXXXXXX, XXXXXXX,     KC_ENT, KC_SPC, KC_BSPC
+                                         XXXXXXX, XXXXXXX, XXXXXXX,     XXXXXXX, XXXXXXX, XXXXXXX
                                       //`--------------------------'  `--------------------------'
   ),
 
@@ -46,18 +46,18 @@
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     XXXXXXX, RCS(KC_LEFT), RCS(KC_DOWN), RCS(KC_RGHT), XXXXXXX, RESET,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
-                                         XXXXXXX, XXXXXXX, KC_LGUI,     XXXXXXX, XXXXXXX, XXXXXXX
+                                         XXXXXXX, XXXXXXX, XXXXXXX,     XXXXXXX, XXXXXXX, XXXXXXX
                                       //`--------------------------'  `--------------------------'
   ),
 
     //Work in process LADO DERECHO PARA BOMBERMAN                  
   [_NAV] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      KC_TAB,  XXXXXXX, XXXXXXX, KC_Z,    KC_C,    KC_X,                     KC_WH_U, XXXXXXX, KC_UP,   XXXXXXX, XXXXXXX, TO(_COLEMAK), 
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_U, XXXXXXX, KC_UP,   XXXXXXX, XXXXXXX, TO(_COLEMAK), 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_LGUI, XXXXXXX,                     KC_WH_D, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_D, KC_LEFT, KC_DOWN, KC_RGHT, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_L, KC_WH_R, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     KC_WH_L, KC_WH_R, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           XXXXXXX, XXXXXXX, XXXXXXX,     XXXXXXX, KC_SPC, XXXXXXX
                                       //`--------------------------'  `--------------------------'
@@ -66,11 +66,11 @@
     //Work in process
   [_FN] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      XXXXXXX, XXXXXXX, XXXXXXX,  KC_TAB,   XXXXXXX, XXXXXXX,                  XXXXXXX, KC_F7, KC_F8, KC_F9, KC_F12, XXXXXXX, 
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     XXXXXXX, KC_F7, KC_F8, KC_F9, KC_F12, XXXXXXX, 
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, KC_LGUI, KC_LCTRL, KC_LSHIFT, KC_LALT, XXXXXXX,                  XXXXXXX, KC_F4, KC_F5, KC_F6, KC_F11, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     XXXXXXX, KC_F4, KC_F5, KC_F6, KC_F11, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      XXXXXXX, XXXXXXX, XXXXXXX,  XXXXXXX,   XXXXXXX, XXXXXXX,                  XXXXXXX, KC_F1, KC_F2, KC_F2, KC_F10, XXXXXXX,
+      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                     XXXXXXX, KC_F1, KC_F2, KC_F3, KC_F10, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           XXXXXXX, XXXXXXX, XXXXXXX,     XXXXXXX, XXXXXXX, XXXXXXX
                                       //`--------------------------'  `--------------------------'
@@ -88,4 +88,3 @@
            LT(_SYM, KC_LBRC),   LT(_NUM, KC_LGUI),  ALGR_T(KC_BSPC),   LT(_FN, KC_ENT),   LT(_NAV, KC_SPC), LT(_EDIT, KC_ESC)
                                       //`--------------------------'  `--------------------------'
   ),
-

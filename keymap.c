@@ -206,7 +206,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             case DOFUS:
             if (record->event.pressed){
                 // when keycode QMKBEST is pressed
-                SEND_STRING("perrox99" SS_TAP(X_TAB) "055629505");
+                SEND_STRING("account" SS_TAP(X_TAB) "password");
             } else {
                 // when keycode QMKBEST is released
             }
