@@ -28,7 +28,8 @@ BLUETOOTH_ENABLE = no  # Enable Bluetooth with the Adafruit EZ-Key HID
 RGBLIGHT_ENABLE  = yes  # Enable WS2812 RGB underlight.  Do not enable this with audio at the same time.
 SLEEP_LED_ENABLE = yes # Breathing sleep LED during USB suspend
 STENO_ENABLE     = no  # enable TX Bolt protocol, requires VIRTSER and may not work with mouse keys
-TAP_DANCE_ENABLE = no # enable double tap
+TAP_DANCE_ENABLE = yes # enable double tap
+DYNAMIC_MACRO_ENABLE = yes # enable dynamic macro
 # VIRTSER_ENABLE = yes # required for TX Bolt
 
 

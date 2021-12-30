@@ -39,8 +39,7 @@ enum layers {
   _SYM,
   _EDIT,
   _NAV,
-  _FN,
-  _QWERTY
+  _FN
 };
 
 enum custom_keycodes {
@@ -54,10 +53,25 @@ enum custom_keycodes {
   DOFUS
 };
 
+// For Tap Dance
+enum {
+    TD_COMM_SCLN, // (/) and (;)
+    TD_ESC_RESET, // (ESC) and (RESET)
+    TD_SLSH_ESC,  // (/) and (ESC) 
+    TD_Q_TAB
+};
+
+qk_tap_dance_action_t tap_dance_actions[] = {
+    // Tap once for , and twice for ;
+    [TD_COMM_SCLN] = ACTION_TAP_DANCE_DOUBLE(KC_COMM, KC_SCLN),
+    [TD_ESC_RESET] = ACTION_TAP_DANCE_DOUBLE(KC_ESC, RESET),
+    [TD_SLSH_ESC] = ACTION_TAP_DANCE_DOUBLE(KC_SLSH, KC_ESC),
+    [TD_Q_TAB] = ACTION_TAP_DANCE_DOUBLE(KC_Q, KC_TAB)
+};
+// For Tap Dance
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-
 #include "base_layout.h"
-
 };
 
 //oled configuration
@@ -111,9 +125,6 @@ static void print_status_narrow(void) {
         case _FN:
             oled_write("FUN", false);
             break;
-        case _QWERTY:
-            oled_write("QWRTY", false);
-            break;
         default:
             oled_write("UNDEF", false);
     }
@@ -143,9 +154,6 @@ static void print_status_narrow(void) {
             break;
         case _FN:
             oled_write("FN", false);
-            break;
-        case _QWERTY:
-            oled_write("QWR", false);
             break;
         default:
             oled_write("Undef", false);
@@ -197,12 +205,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
                 set_single_persistent_default_layer(_FN);
             }
             return false;
-        case QWERTY:
-            if (record->event.pressed) {
-                set_single_persistent_default_layer(_QWERTY);
-            }
-            return false;
-
             case DOFUS:
             if (record->event.pressed){
                 // when keycode QMKBEST is pressed
